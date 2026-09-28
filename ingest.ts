@@ -1,4 +1,4 @@
-import { pipeline, runningFurniture, quoteInset, numberedParagraphs, listedHeadings } from "@rtm/ingest";
+import { pipeline, runningFurniture, quoteInset, numberedParagraphs, listedHeadings, unmarkedHeadings } from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -33,5 +33,9 @@ export default pipeline({
     // per-chapter contents (Saville) or a numbered-section scheme (9/11). A
     // heading stands only if that contents names it.
     listedHeadings(),
+    // 75 of the contents' 88 entries are set with no capital, number or
+    // division label at all ("UK policy before 9/11"), so nothing about
+    // their own shape says they are headings — only the contents does.
+    unmarkedHeadings(),
   ],
 });
