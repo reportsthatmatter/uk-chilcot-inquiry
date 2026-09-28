@@ -1,4 +1,12 @@
-import { pipeline, runningFurniture, quoteInset, numberedParagraphs, listedHeadings, unmarkedHeadings } from "@rtm/ingest";
+import {
+  pipeline,
+  runningFurniture,
+  quoteInset,
+  numberedParagraphs,
+  escapeNumberedParagraphs,
+  listedHeadings,
+  unmarkedHeadings,
+} from "@rtm/ingest";
 
 /**
  * How this report is built. Owned by the report: every decision that shaped
@@ -28,6 +36,11 @@ export default pipeline({
     quoteInset(4),
     // "19.", "104." numbered paragraphs, continuous through the whole summary.
     numberedParagraphs(),
+    // Set at the margin, not indented like Philip Morris's findings — without
+    // this, each paragraph's own "20. " reaches Markdown as a bare ordered-list
+    // opener, so only ~60 of ~950 paragraphs carried a citable id
+    // (reportsthatmatter-4qw).
+    escapeNumberedParagraphs(),
     // The Executive Summary opens with a single front contents (pp.1-3)
     // listing every section and subsection to a page number, rather than a
     // per-chapter contents (Saville) or a numbered-section scheme (9/11). A
