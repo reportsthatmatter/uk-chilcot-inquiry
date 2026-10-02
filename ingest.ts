@@ -1,4 +1,4 @@
-import {
+import { layoutPageJoins,
   quoteListRunOns,
   pipeline,
   runningFurniture,
@@ -30,6 +30,10 @@ export default pipeline({
     },
   ],
   passes: [
+    // A paragraph run over a page break that opens on a capital, a digit or a
+    // quotation mark (or follows a full stop on a justified page) joins when the
+    // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
+    layoutPageJoins(),
     // A quotation running over a page arrives as two (reportsthatmatter-38s.9).
     quoteListRunOns(),
     // Running heads alternate "The Report of the Iraq Inquiry" (verso) and
