@@ -1,0 +1,192 @@
+report: uk-chilcot-inquiry
+adjudicated: 2026-10-02
+by: Claude (Sonnet 5.5), reading the PDF
+method: "20 page breaks drawn at random (seeded) from the page breaks the reference covers, plus 10 where our text and the reference disagreed. For each, pdftotext -layout of the two pages (body lines, notes, running head), answering: does a new block (paragraph, bullet, quotation, heading) start between the two printed body lines shown, or does the block run on. prev and next are the dataset's lines; when the new page's first body line is not the one shown, the verdict covers the stretch between."
+breaks:
+  - page: 11
+    prev: "g his weapons of mass destruction (WMD) programmes; and, in"
+    next: "the longer term, to reintegrate a territorially intact Iraq"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "a quotation runs over the page"
+  - page: 15
+    prev: "return of inspectors as required by resolution 1284 (1999)."
+    next: "53. The adoption on 29 November 2001 of resolution 1382 went"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 16
+    prev: "ined a key part of his position in the months that followed."
+    next: "64. In his annual State of the Union speech on 29 January 20"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 20
+    prev: "This is not Afghanistan. It is not even the Gulf War."
+    next: "“The military part of this is hazardous but I will concentra"
+    verdict: split
+    stratum: disagreement
+    image: false
+    note: "a second quotation paragraph opens with a quotation mark"
+  - page: 32
+    prev: "ution approval for military action could be “beyond reach”."
+    next: "192. Mr Straw told the Foreign Affairs Committee (FAC) on 4"
+    verdict: split
+    stratum: disagreement
+    image: false
+  - page: 38
+    prev: "ve the goal we have set ourselves, that is to disarm Iraq.”"
+    next: "241. By 11 March, it was clear that, in the time available b"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 43
+    prev: "his doubts about the degree to which Saddam Hussein posed a"
+    next: "“clear and present danger” and his concerns that the UK was"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 47
+    prev: "it obtained fissile material and other essential components"
+    next: "from a foreign supplier. There was no evidence that Iraq had"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "a bullet runs over the page"
+  - page: 50
+    prev: "policy community."
+    next: "330. Intelligence and assessments were used to prepare mater"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 58
+    prev: "listened to Mr Blair’s opinions."
+    next: "383. Mr Blair expressed his views in frequent telephone call"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 59
+    prev: "nts which illuminate who took the key decisions and on what"
+    next: "basis, including the full record of the discussion on Iraq i"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 63
+    prev: "a deadline for a vote in the Security Council of 14 March."
+    next: "• A review of UK policy at the end of February 2003 when the"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 69
+    prev: "absence of a further decision of the Security Council."
+    next: "456. In the absence of Lord Goldsmith’s formal advice, uncer"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 71
+    prev: "hat there is strong evidence that Iraq has failed to comply"
+    next: "with and co‑operate fully in the implementation of resolutio"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 72
+    prev: "basis for action should that prove necessary”."
+    next: "481. The decision that Lord Goldsmith would take the lead in"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 83
+    prev: "indication of the potential scale of the post‑conflict task."
+    next: "591. It showed that, in order to achieve the UK’s desired en"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 88
+    prev: "reconstruction of Iraq (including from the British Embassy"
+    next: "Washington after the Rock Drill on 21 and 22 February 2003:"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 90
+    prev: "the substantive issues."
+    next: "634. Mr Blair did not:"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 97
+    prev: "aware of”.237"
+    next: "• The level of female representation in Iraq’s new political"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 99
+    prev: "691. No such review took place."
+    next: "692. There was a strong case for reinforcing MND(SE) so that"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 112
+    prev: "nstrate readiness until after the transfer had taken place."
+    next: "General David Petraeus, Commanding General MNF‑I, and Ambass"
+    verdict: join
+    stratum: disagreement
+    image: false
+    note: "the page ends on a full stop and the paragraph runs on with no number"
+  - page: 115
+    prev: "reappraisal. None took place."
+    next: "Key findings"
+    verdict: split
+    stratum: random
+    image: false
+    note: "heading"
+  - page: 116
+    prev: "he conclusion that Iraq’s weapons of mass destruction (WMD)"
+    next: "programmes posed a threat to peace and endorsed a strategy o"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 121
+    prev: "e depends on inferential judgements drawn from intelligence."
+    next: "• There are lessons which should be implemented in using inf"
+    verdict: split
+    stratum: random
+    image: false
+  - page: 127
+    prev: "ence on US planning and, in the absence of UN authorisation"
+    next: "for the administration and reconstruction of post‑conflict I"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 129
+    prev: "ted throughout the post‑conflict period. They included poor"
+    next: "inter‑departmental co‑ordination, inadequate civilian milita"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 136
+    prev: "im that Iraq could build a nuclear weapon within one to two"
+    next: "years if it obtained fissile material and other essential co"
+    verdict: join
+    stratum: disagreement
+    image: false
+  - page: 139
+    prev: "nd are well understood. The Coalition in Iraq, by contrast,"
+    next: "was an ad hoc alliance. The UK tried to establish some gover"
+    verdict: join
+    stratum: random
+    image: false
+  - page: 142
+    prev: "ersight that are as impartial and non‑partisan as possible."
+    next: "Security Sector Reform"
+    verdict: split
+    stratum: random
+    image: false
+    note: "heading"
+  - page: 146
+    prev: "Security Council adopts resolution 1284"
+    next: "2001"
+    verdict: split
+    stratum: random
+    image: false
+    note: "timeline table: a new year starts a new row group"
