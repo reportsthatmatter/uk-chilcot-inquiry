@@ -1,0 +1,93 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# The source is the Executive Summary only (60-odd pages). "pdf" is the PDF page; "printed" the summary's own numbering (PDF page 5 is printed 1).
+pages:
+  # The first page of the contents: a title and "Contents" set as headings above dot-leader entries with page numbers.
+  - pdf: 5
+    printed: 1
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [L, I, G]
+    xfail: reportsthatmatter-kkna
+    xfail_only: [headings]
+    headings: ["EXECUTIVE SUMMARY", "Contents"]
+    footnotes: []
+    markers: []
+  # The Introduction: a heading and eight numbered paragraphs ("1." in bold blue), no notes.
+  - pdf: 8
+    printed: 4
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [ordinary, I]
+    blocks:
+      - heading: "Introduction"
+      - paragraph: {start: "1. In 2003, for the first time since the Second World War", end: "the night after that."}
+      - paragraph: {start: "2. Until 28 June 2004, the UK was a joint Occupying Power", end: "stabilisation and reconstruction."}
+      - paragraph: {start: "3. The consequences of the invasion and of the conflict", end: "further years of violence."}
+      - paragraph: {start: "4. The decision to use force", end: "in which to intervene."}
+      - paragraph: {start: "5. Although the Coalition had achieved the removal", end: "social and economic reconstruction."}
+      - paragraph: {start: "6. The Inquiry’s report sets out in detail decision-making", end: "its delivery."}
+      - paragraph: {start: "7. In this Executive Summary the Inquiry sets out its conclusions", end: "individual Sections of the report."}
+      - paragraph: {start: "8. Other Sections of the report contain detailed accounts", end: "and lessons."}
+    footnotes: []
+    markers: []
+  # Two subheads (a larger blue and a smaller blue) run into the paragraph that follows them in the source's text layer (ixe); a quotation opens at the foot.
+  - pdf: 10
+    printed: 6
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    note: "agrees with reference/adjudicated.yaml: page 11 opens mid-quotation (join)"
+    features: [I, D]
+    blocks:
+      - paragraph: {start: "19. By early March, the US Administration", end: "was abandoned."}
+      - paragraph: {start: "20. In the Inquiry’s view, the diplomatic options", end: "not a last resort."}
+      - paragraph: {start: "21. In mid-March, Mr Blair’s determination", end: "join US-led military action."}
+      - paragraph: {start: "22. Led by Mr Blair, the UK Government chose", end: "support military action."}
+      - paragraph: {start: "23. Mr Blair asked Parliament to endorse a decision", end: "Parliament endorsed that choice."}
+      - heading: "The UK decision to support US military action"
+      - paragraph: {start: "24. President Bush decided at the end of 2001", end: "regime change in Iraq."}
+      - paragraph: {start: "25. The UK shared the broad objective", end: "series of Security Council resolutions."}
+      - heading: "UK policy before 9/11"
+      - paragraph: {start: "26. Before the attacks on the US on 11 September 2001", end: "illicit funds to Saddam Hussein."}
+      - paragraph: {start: "27. When UK policy towards Iraq was formally reviewed", end: "were defined as:"}
+      - quote: {start: "“... in the short term, to reduce the threat Saddam poses", continues: true}
+    footnotes: []
+    markers: []
+  # Quotations and bulleted extracts of intelligence assessments: a quotation, two bullets, a quotation; later two more bullets.
+  - pdf: 12
+    printed: 8
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    features: [D, J, F]
+    xfail: reportsthatmatter-b94
+    xfail_only: [blocks, markers]
+    blocks:
+      - paragraph: {start: "36. In an Assessment on 1 November, the Joint Intelligence Committee", end: "trade with Iraq.”", notes: [5]}
+      - paragraph: {start: "37. The JIC also judged:", end: "also judged:"}
+      - quote: {start: "“Saddam would only contemplate co-operation with [resolution] 1284", end: "co-operate unless:"}
+      - list: {start: "there is a UN-agreed timetable for the lifting of sanctions", end: "constraints likely to be effective.", items: 2}
+      - quote: {start: "“Before accepting 1284, Saddam will try to obtain the abolition", end: "topple the Iraqi regime.”"}
+      - paragraph: {start: "38. In November 2000, Mr Blair’s “preferred option”", end: "sanctions to be suspended.", notes: [6]}
+      - paragraph: {start: "39. In December 2000, the British Embassy Washington reported", end: "by President Clinton.", notes: [7]}
+      - paragraph: {start: "40. The Key Judgements of a JIC Assessment in February 2001 included:", end: "included:"}
+      - list: {start: "There was “broad international consensus to maintain the arms embargo", end: "“scope for earning even more”.", items: 2}
+    footnotes: [5, 6, 7]
+    markers: [5, 6, 7]
+  # Numbered paragraphs 241-247, two quotations and a three-bullet list; one note whose marker follows a closing quotation mark.
+  - pdf: 38
+    printed: 34
+    verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
+    note: "agrees with reference/adjudicated.yaml: a new paragraph starts at the top of this page (split)"
+    features: [ordinary, D, F]
+    xfail: reportsthatmatter-b94
+    xfail_only: [blocks, markers]
+    blocks:
+      - paragraph: {start: "241. By 11 March, it was clear that", end: "offered by resolution 1441."}
+      - paragraph: {start: "242. Mr Straw wrote to Mr Blair on 11 March", end: "firm conclusion that:"}
+      - quote: {start: "“If we cannot gain nine votes and be sure of no veto", end: "if we camp on 1441 ...”", notes: [111]}
+      - paragraph: {start: "243. Mr Straw set out his reasoning in some detail", end: "including that:"}
+      - list: {start: "Although in earlier discussion he had “warmed to the idea”", end: "would have vetoed.”", items: 3}
+      - paragraph: {start: "244. Mr Straw suggested that the UK should adopt a strategy", end: "reports of non-compliance."}
+      - paragraph: {start: "245. Mr Straw also identified the need for a “Plan B”", end: "for military action."}
+      - paragraph: {start: "246. Mr Straw concluded:", end: "concluded:"}
+      - quote: {start: "“We will obviously need to discuss all this", end: "he wanted you alive not dead!”"}
+      - paragraph: {start: "247. There was no reference in the minute to President Chirac’s remarks", end: "the previous evening."}
+    footnotes: [111]
+    markers: [111]
