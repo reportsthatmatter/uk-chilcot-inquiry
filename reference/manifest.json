@@ -14,21 +14,24 @@
   "sources_note": "The reference is derived from the source PDF already in archive/, so no copy is kept under reference/raw/.",
   "blocks": {
     "path": "reference/blocks.jsonl",
-    "sha256": "2541a73782952f8342c977b1230bac9d18b53b5e2909ec8da1bdc5c6e175bbed",
-    "normaliser": "reportsthatmatter scripts/score/reference.py, adapter tagged, version 1",
+    "sha256": "da63571e67df41ea022a6de7fd27e3415684828794e100d2bea2577ed17d0cb1",
+    "normaliser": "reportsthatmatter scripts/score/reference.py, adapter tagged, version 2",
     "built": "2026-10-02",
     "counts": {
       "contents": 90,
       "heading": 92,
+      "list": 354,
       "note": 283,
-      "paragraph": 1054,
-      "quote": 93
+      "paragraph": 1036,
+      "quote": 92
     },
-    "markers": 283,
-    "markers_linked": 283,
-    "words": 50689
+    "markers": 281,
+    "markers_linked": 281,
+    "words": 50945
   },
   "caveats": [
-    "Names marked up as links are missing from marked content (roughly 15% of words)."
+    "Names marked up as links are missing from marked content (roughly 15% of words).",
+    "Bulleted findings are kept inside the paragraph above ('...included:• a • b'): split into list blocks at the bullets.",
+    "One /P per page run: a fragment that continues an unfinished paragraph (past the page's notes) is joined to it, whatever its first letter."
   ]
 }
