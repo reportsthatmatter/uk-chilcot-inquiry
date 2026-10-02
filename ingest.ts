@@ -6,6 +6,7 @@ import {
   escapeNumberedParagraphs,
   listedHeadings,
   unmarkedHeadings,
+  recoverListedHeadings,
 } from "@rtm/ingest";
 
 /**
@@ -50,5 +51,9 @@ export default pipeline({
     // division label at all ("UK policy before 9/11"), so nothing about
     // their own shape says they are headings — only the contents does.
     unmarkedHeadings(),
+    // The 19 entries unmarkedHeadings leaves: headings that open a PDF page,
+    // follow a footnote marker, or wrap over two lines, and the contents entry
+    // whose leaders squeeze down to a single dot (see PROCESSING.md).
+    recoverListedHeadings(),
   ],
 });
