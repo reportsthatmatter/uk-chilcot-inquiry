@@ -1,0 +1,34 @@
+{
+  "report": "uk-chilcot-inquiry",
+  "set": "held-out",
+  "edition": "The executive summary PDF's own structure tree (tagged PDF, InDesign styles, role-mapped)",
+  "licence": "Crown copyright, reused under the Open Government Licence v3.0 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+  "fetched": "2026-10-02",
+  "sources": [
+    {
+      "path": "archive/the-report-of-the-iraq-inquiry-executive-summary.pdf",
+      "sha256": "2be8c4385850b3216a2359809445996907d17e9d24b92437528438b3e2682cc4",
+      "bytes": 1064285
+    }
+  ],
+  "sources_note": "The reference is derived from the source PDF already in archive/, so no copy is kept under reference/raw/.",
+  "blocks": {
+    "path": "reference/blocks.jsonl",
+    "sha256": "2541a73782952f8342c977b1230bac9d18b53b5e2909ec8da1bdc5c6e175bbed",
+    "normaliser": "reportsthatmatter scripts/score/reference.py, adapter tagged, version 1",
+    "built": "2026-10-02",
+    "counts": {
+      "contents": 90,
+      "heading": 92,
+      "note": 283,
+      "paragraph": 1054,
+      "quote": 93
+    },
+    "markers": 283,
+    "markers_linked": 283,
+    "words": 50689
+  },
+  "caveats": [
+    "Names marked up as links are missing from marked content (roughly 15% of words)."
+  ]
+}
