@@ -1,4 +1,5 @@
 import {
+  quoteListRunOns,
   pipeline,
   runningFurniture,
   quoteInset,
@@ -29,6 +30,8 @@ export default pipeline({
     },
   ],
   passes: [
+    // A quotation running over a page arrives as two (reportsthatmatter-38s.9).
+    quoteListRunOns(),
     // Running heads alternate "The Report of the Iraq Inquiry" (verso) and
     // "Executive Summary" (recto), with a bare page number centred beneath.
     runningFurniture(),
