@@ -4,6 +4,6 @@
   "type": "module",
   "description": "Source archive and ingestion definition for: The Report of the Iraq Inquiry, Executive Summary",
   "dependencies": {
-    "@rtm/ingest": "github:reportsthatmatter/ingest#fa795b32e0373748831530f11b8d9e5c76203f16"
+    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.15.0"
   }
 }
