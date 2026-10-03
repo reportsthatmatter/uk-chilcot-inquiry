@@ -1,4 +1,4 @@
-import { layoutPageJoins,
+import { layoutMarkers, layoutPageJoins,
   quoteListRunOns,
   pipeline,
   runningFurniture,
@@ -34,6 +34,9 @@ export default pipeline({
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
     layoutPageJoins(),
+    // Footnote markers are raised digits flush against the text ("community.”1", "abstained.2"): link them
+    // from the layout, to a note on the same page, in sequence (reportsthatmatter-b94).
+    layoutMarkers(),
     // A quotation running over a page arrives as two (reportsthatmatter-38s.9).
     quoteListRunOns(),
     // Running heads alternate "The Report of the Iraq Inquiry" (verso) and

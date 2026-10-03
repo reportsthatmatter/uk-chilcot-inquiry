@@ -56,8 +56,6 @@ pages:
     printed: 8
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     features: [D, J, F]
-    xfail: reportsthatmatter-b94
-    xfail_only: [blocks, markers]
     blocks:
       - paragraph: {start: "36. In an Assessment on 1 November, the Joint Intelligence Committee", end: "trade with Iraq.”", notes: [5]}
       - paragraph: {start: "37. The JIC also judged:", end: "also judged:"}
@@ -76,8 +74,6 @@ pages:
     verified_by: "Claude (Sonnet 5.5), 2026-10-02, against the page image"
     note: "agrees with reference/adjudicated.yaml: a new paragraph starts at the top of this page (split)"
     features: [ordinary, D, F]
-    xfail: reportsthatmatter-b94
-    xfail_only: [blocks, markers]
     blocks:
       - paragraph: {start: "241. By 11 March, it was clear that", end: "offered by resolution 1441."}
       - paragraph: {start: "242. Mr Straw wrote to Mr Blair on 11 March", end: "firm conclusion that:"}
