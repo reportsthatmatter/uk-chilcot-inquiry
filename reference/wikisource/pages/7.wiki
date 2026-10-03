@@ -1,0 +1,57 @@
+<noinclude><pagequality level="1" user="Charles Matthews" />{{rh|||Executive Summary}}
+{|</noinclude>{{nopt}}
+|-
+|{{gap}}Advice on the legal basis for military action, November 2002 to March 2003 || 119
+|-
+|{{gap}}Development of the military options for an invasion of Iraq || 120
+|-
+|{{gap}}Military planning for the invasion, January to March 2003 || 121
+|-
+|{{gap}}Military equipment (pre‑conflict)||122
+|-
+|{{gap}}Planning for a post‑Saddam Hussein Iraq||122
+|-
+|{{gap}}The invasion || 123
+|-
+|{{gap}}The post‑conflict period ||123
+|-
+|{{gap}}Reconstruction|| 124
+|-
+|{{gap}}De‑Ba’athification|| 125
+|-
+|{{gap}}Security Sector Reform|| 125
+|-
+|{{gap}}Resources ||126
+|-
+|{{gap}}Military equipment (post‑conflict) ||126
+|-
+|{{gap}}Civilian personnel || 127
+|-
+|{{gap}}Service Personnel || 127
+|-
+|{{gap}}Civilian casualties|| 128
+|-
+| [[The Report of the Iraq Inquiry - Executive Summary/Lessons|Lessons]] ||129
+|-
+|{{gap}}The decision to go to war||129
+|-
+|{{gap}}Weapons of mass destruction||130
+|-
+|{{gap}}The invasion of Iraq ||133
+|-
+|{{gap}}The post‑conflict period||134
+|-
+|{{gap}}Reconstruction||135
+|-
+|{{gap}}De‑Ba’athification||137
+|-
+|{{gap}}Security Sector Reform||138
+|-
+|{{gap}}Resources || 138
+|-
+|{{gap}}Military equipment (post‑conflict) || 139
+|-
+|{{gap}}Civilian personnel|| 140
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Timeline of events|Timeline of events]] || 141
+|}<noinclude>{{rh||3|}}</noinclude>
