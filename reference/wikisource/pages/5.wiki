@@ -1,0 +1,61 @@
+<noinclude><pagequality level="1" user="Charles Matthews" /></noinclude>{{c/s}}<h1>'''EXECUTIVE SUMMARY'''</h1>{{c/e}}
+
+{{x-larger|Contents}}
+{|
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Introduction|Introduction]]||4
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Pre‑conflict strategy and planning|Pre‑conflict strategy and planning]] ||5
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/The UK decision to support US military action|The UK decision to support US military action]] ||6
+|-
+|{{gap}}UK policy before 9/11||6
+|-
+|{{gap}}The impact of 9/11||10
+|-
+|{{gap}}Decision to take the UN route ||16
+|-
+|{{gap}}Negotiation of resolution 1441||19
+|-
+|{{gap}}The prospect of military action|| 21
+|-
+|{{gap}}The gap between the Permanent Members of the Security Council widens ||24
+|-
+|{{gap}}The end of the UN route || 30
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Why Iraq? Why now?|Why Iraq? Why now?]] ||40
+|-
+|{{gap}}Was Iraq a serious or imminent threat? ||40
+|-
+|{{gap}}The predicted increase in the threat to the UK as a result of military action in Iraq ||47
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/The UK’s relationship with the US|The UK’s relationship with the US]] ||51
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Decision‑making|Decision‑making]]||54
+|-
+|{{gap}}Collective responsibility ||55
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Advice on the legal basis for military action|Advice on the legal basis for military action]]||62
+|-
+|{{gap}}The timing of Lord Goldsmith’s advice on the interpretation of resolution 1441|| 63
+|-
+|{{gap}}Lord Goldsmith’s advice of 7 March 2003||65
+|-
+|{{gap}}Lord Goldsmith’s arrival at a “better view” ||66
+|-
+|{{gap}}The exchange of letters on 14 and 15 March 2003||66
+|-
+|{{gap}}Lord Goldsmith’s Written Answer of 17 March 2003|| 67
+|-
+|{{gap}}Cabinet, 17 March 2003|| 68
+|-
+|[[The Report of the Iraq Inquiry - Executive Summary/Weapons of mass destruction|Weapons of mass destruction]]||69
+|-
+|{{gap}}Iraq WMD assessments, pre‑July 2002 || 69
+|-
+|{{gap}}Iraq WMD assessments, July to September 2002 || 72
+|-
+|{{gap}}Iraq WMD assessments, October 2002 to March 2003|| 75
+|-
+|{{gap}}The search for WMD || 77<noinclude>{{nopt}}
+|}</noinclude>

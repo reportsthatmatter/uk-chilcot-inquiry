@@ -1,0 +1,19 @@
+<noinclude><pagequality level="3" user="Slowking4" />{{right|Executive Summary}}</noinclude>{{larger|Advice on the legal basis for military action, November 2002 to March 2003}}
+
+810.  The following key findings are from Section 5:
+{{left margin|2em|
+*	On 9 December, formal ‘instructions’ to provide advice were sent to Lord Goldsmith. They were sent by the FCO on behalf of the FCO and the MOD as well as No.10. The instructions made it clear that Lord Goldsmith should not provide an immediate response.
+
+*	Until 27 February, No.10 could not have been sure that Lord Goldsmith would advise that there was a basis on which military action against Iraq could be taken in the absence of a further decision of the Security Council.
+
+*	Lord Goldsmith’s formal advice of 7 March set out alternative interpretations of the legal effect of resolution 1441. While Lord Goldsmith remained “of the opinion that the safest legal course would be to secure a second resolution”, he concluded (paragraph 28) that “a reasonable case can be made that resolution 1441 was capable of reviving the authorisation in resolution 678 without a further resolution”.
+
+*	Lord Goldsmith wrote that a reasonable case did not mean that if the matter ever came to court, he would be confident that the court would agree with this view. He judged a court might well conclude that OPs 4 and 12 required a further Security Council decision in order to revive the authorisation in resolution 678.
+
+*	At a meeting on 11 March, there was concern that the advice did not offer a clear indication that military action would be lawful. Lord Goldsmith was asked, after the meeting, by Admiral Boyce on behalf of the Armed Forces, and by the Treasury Solicitor, Ms Juliet Wheldon, in respect of the Civil Service, to give a clear‑cut answer on whether military action would be lawful rather than unlawful.
+
+*	Lord Goldsmith concluded on 13 March that, on balance, the “better view” was that the conditions for the operation of the revival argument were met in this case, meaning that there was a lawful basis for the use of force without a further resolution beyond resolution 1441.
+
+*	Mr Brummell wrote to Mr Rycroft on 14 March:}}
+{{left margin|5em|
+“It is an essential part of the legal basis for military action without a further resolution of the Security Council that there is strong evidence that Iraq has failed to comply with and co‑operate fully in the implementation of resolution 1441 and has thus failed to take the final opportunity offered by the Security Council in that resolution. The Attorney General understands that it is unequivocally the Prime Minister’s view that Iraq has committed further material breaches as specified in [operative] paragraph 4 of resolution 1441, but as this is a judgment for the Prime Minister, the Attorney would be grateful for confirmation that this is the case.”}}<noinclude>{{rh||119|}}</noinclude>

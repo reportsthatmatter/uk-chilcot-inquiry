@@ -1,0 +1,16 @@
+<noinclude><pagequality level="3" user="Slowking4" />{{right|Executive Summary}}</noinclude>
+837.  The nature of the two functions is fundamentally different. As can be seen from the JIC Assessments quoted in, and published with, this report, they contain careful language intended to ensure that no more weight is put on the evidence than it can bear. Organising the evidence in order to present an argument in the language of Ministerial statements produces a quite different type of document.
+
+838.  The widespread perception that the September 2002 dossier overstated the firmness of the evidence about Iraq’s capabilities and intentions in order to influence opinion and “make the case” for action to disarm Iraq has produced a damaging legacy, including undermining trust and confidence in Government statements, particularly those which rely on intelligence which cannot be independently verified.
+
+839.  As a result, in situations where the policy response may involve military action and the evidence, at least in part, depends on inferential judgements drawn from necessarily incomplete intelligence, it may be more difficult to secure support for the Government’s position and agreement to action.
+
+840.  The explicit and public use of material from JIC Assessments to underpin policy decisions will be infrequent. But, from the evidence on the compilation of the September dossier, the lessons for any similar exercise in future would be:
+{{left margin|2em|
+*	The need for clear separation of the responsibility for analysis and assessment of intelligence from the responsibility for making the argument for a policy.
+
+*	The importance of precision in describing the position. In the case of the September dossier, for instance, the term “programme” was used to describe disparate activities at very different stages of maturity. There was a “programme” to extend the range of the Al Samoud missile. There was no “programme” in any meaningful sense to develop and produce nuclear weapons. Use of the shorthand CW or BW in relation to Iraq’s capability obscured whether the reference was to weapons or warfare. Constant use of the term “weapons of mass destruction” without further clarification obscured the differences between the potential impact of nuclear, biological and chemical weapons and the ability to deliver them effectively. For example, there would be a considerable difference between the effects of an artillery shell filled with mustard gas, which is a battlefield weapon, and a long‑range ballistic missile with a chemical or biological warhead, which is a weapon of terror.
+
+*	The need to identify and accurately describe the confidence and robustness of the evidence base. There may be evidence which is “authoritative” or which puts an issue “beyond doubt”; but there are unlikely to be many circumstances when those descriptions could properly be applied to inferential judgements relying on intelligence.
+
+*	The need to be explicit about the likelihood of events. The possibility of Iraq producing and using an improvised nuclear device was, rightly, omitted from the dossier. But the claim that Iraq could build a nuclear weapon within one to two}}<noinclude>{{rh||131|}}</noinclude>

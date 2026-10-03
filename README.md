@@ -52,3 +52,7 @@ site repo with `pnpm ingest run uk-chilcot-inquiry`.
 PDF and where it still falls short. The site publishes it at
 `/reports/uk-chilcot-inquiry/processing`. The site copies it in with
 `pnpm ingest aggregate`.
+
+## Reference texts
+
+`reference/wikisource/` mirrors the volunteer-proofread Wikisource transcription of the Report of the Iraq Inquiry: Executive Summary, one file per printed page (142 of its 150 pages are proofread), as served by the MediaWiki API: `pages/<n>.wiki` (the wikitext), `manifest.json` (page and revision ids, proofread levels, SHA-256 of every file, proofreaders credited, licence) and `pagemap.json` (each page's PDF page, measured against the PDF's text). The underlying text is public; Wikisource's transcription and formatting are CC BY-SA 4.0, so this is a measurement reference for `pnpm score` in the site repo (word error rate and footnote-marker accuracy per page, see docs/scoring.md there), not served text. Rebuild with `scripts/wikisource/fetch.mjs` and `map.mjs` in the site repo.
