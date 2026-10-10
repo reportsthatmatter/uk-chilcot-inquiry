@@ -33,7 +33,9 @@ export default pipeline({
     // A paragraph run over a page break that opens on a capital, a digit or a
     // quotation mark (or follows a full stop on a justified page) joins when the
     // layout says it runs on: no first-line indent, same face (reportsthatmatter-38s.10).
-    layoutPageJoins(),
+    // numberedBody: every body paragraph is numbered ("780."), so an unnumbered page opening carries on the
+    // one above: 780 "…after the transfer had taken place." / "General David Petraeus…" (PDF p.112).
+    layoutPageJoins({ numberedBody: true }),
     // Footnote markers are raised digits flush against the text ("community.”1", "abstained.2"): link them
     // from the layout, to a note on the same page, in sequence (reportsthatmatter-b94).
     layoutMarkers(),
