@@ -41,6 +41,10 @@ from the print edition's slug lines and ligatures, the two are identical.
 - **SHA-256:** `2be8c4385850b3216a2359809445996907d17e9d24b92437528438b3e2682cc4`
 - **Licence:** Crown copyright 2016, published under the Open Government Licence v3.0.
 
+## Licence
+
+Text of the report: Crown copyright 2016, Open Government Licence v3.0. Our markup, processing and editorial additions: CC BY 4.0. Code: MIT. Evidence, caveats and the full statement are in [LICENSE](LICENSE); the MIT text is in [LICENSE-MIT](LICENSE-MIT).
+
 ## Build
 
 `ingest.ts` declares how the report is turned into Markdown. Rebuild from the
